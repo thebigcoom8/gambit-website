@@ -1,0 +1,1 @@
+this code was made with help from claud.ai it helped me when i was stuck but most of it was from me. you can use this in your websites if you want but dont copy it and make it a derect clone of my website make it your own and have fun
