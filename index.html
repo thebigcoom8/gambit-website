@@ -8,10 +8,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <script>
+   window.addEventListener('message', function(e) {
+      if (e.data && e.data.iframeHeight) {
+        document.getElementById('header-frame').style.height = e.data.iframeHeight + 'px';
+      }
+    });
+</script>
 
     <div class="floating-cards"></div>
 
-    <iframe id="header-frame" src="header.html" scrolling="no"></iframe>
+    <iframe id="header-frame" src="header.htm" scrolling="no"></iframe>
 
     <div class="container">
 
